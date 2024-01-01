@@ -31,8 +31,8 @@ export default function Contact() {
       <SectionHeading>Contact me</SectionHeading>
       <p className="text-gray-700 -mt-6">
         Please contact me directly at{" "}
-        <a className="underline " href="mailto:example@gmail.com">
-          example@gmail.com
+        <a className="underline " href="mailto:maikoyorino.07@gmail.com">
+          maikoyorino.07@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -55,7 +55,7 @@ export default function Contact() {
           name="message"
           placeholder="Your message"
           required
-          maxLength={500}
+          maxLength={5000}
         />
         <button
           className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-[#33186B] text-white 
