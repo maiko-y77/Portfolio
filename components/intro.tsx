@@ -89,7 +89,7 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/CV.pdf"
+          href="/Maiko_Yorino_Resume.pdf"
           download
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full 
           outline-none focus:scale-110 hover:scale-110 

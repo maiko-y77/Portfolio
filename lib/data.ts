@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import sipsavvyImg from "@/public/sipsavvy.png";
 import sommetredImg from "@/public/sommrtred.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
+import interviewscheduler from "@/public/Interviewscheduler.png";
 
 export const links = [
   {
@@ -65,25 +65,25 @@ export const projectsData = [
     title: "SipSavvy",
     description:
       "I worked as a full-stack developer on this blogging platform project for 2 month. Users will have different levels of access (admin, writer or reader).",
-    tags: ["Typescript", "Next.js", "Next-Auth", "Sass", "Express.js", "MongoDB", "Prisma"],
+    tags: ["TypeScript", "Next.js", "Next-Auth", "Sass", "Express.js", "MongoDB", "Prisma"],
     imageUrl: sipsavvyImg,
-    webUrl:"#"
+    webUrl:"https://youtu.be/qveN7_oiRmw"
   },
   {
     title: "SOMMET RED",
     description:
       "Embarked on a project built entirely from scratch, utilizing SCSS for the first time.",
-    tags: ["Sass"],
+    tags: ["HTML", "Sass"],
     imageUrl: sommetredImg,
     webUrl:"https://sommet-red.vercel.app/"
   },
   {
-    title: "SipSavvy",
+    title: "Interview Scheduler",
     description:
       "I worked as a full-stack developer on this startup project for 2 month. This blogging platform where users will have different levels of access (admin, writer or reader).",
-    tags: ["Typescript", "Next.js", "Next-Auth", "Sass", "Express.js", "MongoDB", "Prisma"],
-    imageUrl: sipsavvyImg,
-    webUrl:"#"
+    tags: ["React(API design only)", "Express.js", "PostgreSQL", "Prisma"],
+    imageUrl: interviewscheduler,
+    webUrl:"https://github.com/maiko-y77/Interview-Scheduler"
   },
 ] as const;
 
